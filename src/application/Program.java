@@ -37,7 +37,6 @@ public class Program {
 				
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
 				
-				// Check if a piece was captured and add if it was, add this piece to the captured piece's list.
 				if (capturedPiece != null) {
 					captured.add(capturedPiece);
 				}
